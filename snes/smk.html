@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Mario Kart | Emul8Me</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emul8Me</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Super Mario Kart</h2>
+            <p>Super Mario Kart is a racing video game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES), introducing the iconic kart racing series featuring characters from the Mario franchise competing in fast-paced, colorful races filled with power-ups and obstacles.</p>
+            <div style="width:640px;height:480px;max-width:100%">
+                <div id="game"></div>
+            </div>
+            <script>
+                EJS_player = "#game";
+                EJS_core = "snes";
+                EJS_gameName = "Super Mario Kart";
+                EJS_color = "#ff7b00";
+                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+                EJS_gameUrl = "/roms/snes/Super Mario Kart (USA).sfc";
+            </script>
+            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Emul8Me. All rights reserved.</p>
+    </footer>
+</body>
+</html>

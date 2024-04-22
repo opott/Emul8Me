@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Mario World | Emul8Me</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emul8Me</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Super Mario World</h2>
+            <p>Super Mario World is a classic side-scrolling platformer developed by Nintendo for the Super Nintendo Entertainment System (SNES), featuring Mario and Luigi as they embark on a journey through the colorful land of Dinosaur Land to rescue Princess Toadstool from the clutches of Bowser.</p>
+            <div style="width:640px;height:480px;max-width:100%">
+                <div id="game"></div>
+            </div>
+            <script>
+                EJS_player = "#game";
+                EJS_core = "snes";
+                EJS_gameName = "Super Mario World";
+                EJS_color = "#ff7b00";
+                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+                EJS_gameUrl = "/roms/snes/Super Mario World (USA).sfc";
+            </script>
+            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Emul8Me. All rights reserved.</p>
+    </footer>
+</body>
+</html>
