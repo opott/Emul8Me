@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Emul8Md</h1>
+<h1 align="center" id="title">Emul8Me</h1>
 
 <p align="center"><img src="https://socialify.git.ci/opott/Emul8Me/image?font=Raleway&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
