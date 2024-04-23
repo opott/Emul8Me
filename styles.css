@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #ff7b00; /* Updated color */
+  background-color: #ff6100; /* Updated color */
   color: #fff;
   padding: 20px;
 }
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  color: #ff7b00;
+  color: #ff6100;
 }
 
 nav ul {
@@ -57,7 +57,7 @@ li a {
 }
 
 footer {
-  background-color: #ff7b00; /* Updated color */
+  background-color: #ff6100; /* Updated color */
   color: #fff;
   padding: 10px;
   text-align: center;
