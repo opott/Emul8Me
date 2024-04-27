@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Mario Bros. | Emul8Me</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emul8Me</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Super Mario Bros.</h2>
+            <p>Super Mario Bros. is a side-scrolling platform video game developed and published by Nintendo for the Nintendo Entertainment System (NES), featuring Mario and Luigi as they embark on a journey to rescue Princess Toadstool from the villainous Bowser, popularizing the platforming genre and becoming one of the most influential and beloved video games of all time.</p>
+            <div style="width:640px;height:480px;max-width:100%">
+                <div id="game"></div>
+            </div>
+            <script>
+                EJS_player = "#game";
+                EJS_core = "nes";
+                EJS_gameName = "Super Mario Bros.";
+                EJS_color = "#ff6100";
+                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+                EJS_gameUrl = "/roms/nes/Super Mario Bros. (World).nes";
+            </script>
+            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Emul8Me. All rights reserved.</p>
+    </footer>
+</body>
+</html>
