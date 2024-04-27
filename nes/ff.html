@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Fantasy | Emul8Me</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emul8Me</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Final Fantasy</h2>
+            <p>Final Fantasy is a seminal role-playing video game developed by Square (now Square Enix) for the Nintendo Entertainment System (NES), known for its expansive world, intricate storyline, and innovative turn-based battle system as players embark on a quest to restore light to the four elemental crystals and defeat the evil forces threatening the kingdom of Cornelia.</p>
+            <div style="width:640px;height:480px;max-width:100%">
+                <div id="game"></div>
+            </div>
+            <script>
+                EJS_player = "#game";
+                EJS_core = "nes";
+                EJS_gameName = "Final Fantasy";
+                EJS_color = "#ff6100";
+                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+                EJS_gameUrl = "/roms/nes/Final Fantasy (USA).nes";
+            </script>
+            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Emul8Me. All rights reserved.</p>
+    </footer>
+</body>
+</html>

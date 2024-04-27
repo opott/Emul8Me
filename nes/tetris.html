@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tetris | Emul8Me</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emul8Me</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Tetris</h2>
+            <p>Tetris for the NES is a tile-matching puzzle video game developed by Nintendo and based on the classic game created by Alexey Pajitnov, featuring addictive gameplay where players manipulate falling blocks to complete lines and clear the playing field, becoming a timeless classic and one of the best-selling games of all time.</p>
+            <div style="width:640px;height:480px;max-width:100%">
+                <div id="game"></div>
+            </div>
+            <script>
+                EJS_player = "#game";
+                EJS_core = "nes";
+                EJS_gameName = "Tetris";
+                EJS_color = "#ff6100";
+                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+                EJS_gameUrl = "/roms/nes/Tetris (Europe).nes";
+            </script>
+            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Emul8Me. All rights reserved.</p>
+    </footer>
+</body>
+</html>

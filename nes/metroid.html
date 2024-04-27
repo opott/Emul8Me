@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Metroid | Emul8Me</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emul8Me</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Metroid</h2>
+            <p>Metroid is a pioneering action-adventure video game developed and published by Nintendo for the Nintendo Entertainment System (NES), renowned for its atmospheric exploration, non-linear gameplay, and iconic protagonist Samus Aran as players navigate the labyrinthine planet of Zebes, uncovering secrets and confronting powerful enemies in their quest to defeat the parasitic Metroid organisms and thwart the plans of the Space Pirates.</p>
+            <div style="width:640px;height:480px;max-width:100%">
+                <div id="game"></div>
+            </div>
+            <script>
+                EJS_player = "#game";
+                EJS_core = "nes";
+                EJS_gameName = "Metroid";
+                EJS_color = "#ff6100";
+                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+                EJS_gameUrl = "/roms/nes/Metroid (Europe).nes";
+            </script>
+            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Emul8Me. All rights reserved.</p>
+    </footer>
+</body>
+</html>
