@@ -14,7 +14,7 @@ body:
       validations:
         required: true
       options:
-        - 3D0
+        - 3DO
         - Arcade
         - Atari 2600
         - Atari 7800
@@ -31,10 +31,10 @@ body:
         - Sega Mega Drive
         - Super Nintendo Entertainment System
         - Virtual Boy
-      - type: input
-        id: game
-        attributes:
-          label: Game Name
-          description: Enter the full name of the game here.
-          validations:
-            required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game Name
+      description: Enter the full name of the game here.
+      validations:
+        required: true
