@@ -11,8 +11,6 @@ body:
     attributes:
       label: System
       description: The system that this game can be played on. If not listed below, it will not be possible to add this game!
-      validations:
-        required: true
       options:
         - 3DO
         - Arcade
@@ -36,5 +34,3 @@ body:
     attributes:
       label: Game Name
       description: Enter the full name of the game here.
-      validations:
-        required: true
