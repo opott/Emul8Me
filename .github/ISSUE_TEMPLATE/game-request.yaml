@@ -1,0 +1,40 @@
+name: Game Request
+description: Request a new game to be added to the site.
+title: "[New Game] "
+labels: ["New Game Request"]
+projects: ["opott/2"]
+assignees:
+  - opott
+body:
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      description: The system that this game can be played on. If not listed below, it will not be possible to add this game!
+      validations:
+        required: true
+      options:
+        - 3D0
+        - Arcade
+        - Atari 2600
+        - Atari 7800
+        - Atari Lynx
+        - Gameboy Advance
+        - Gameboy Colour
+        - Nintendo Entertainment System
+        - Nintendo 64
+        - PlayStation 1
+        - Sega 32X
+        - Sega CD
+        - Sega Game Gear
+        - Sega Master System
+        - Sega Mega Drive
+        - Super Nintendo Entertainment System
+        - Virtual Boy
+      - type: input
+        id: game
+        attributes:
+          label: Game Name
+          description: Enter the full name of the game here.
+          validations:
+            required: true
