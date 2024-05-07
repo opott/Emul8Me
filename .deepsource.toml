@@ -1,4 +1,13 @@
 version = 1
 
 [[analyzers]]
+name = "javascript"
+
+[[analyzers]]
 name = "secrets"
+
+[[transformers]]
+name = "prettier"
+
+[[transformers]]
+name = "standardjs"
