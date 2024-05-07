@@ -1,32 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <title>Contra | Emul8Me</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
     <dyn-header></dyn-header>>
-    
+
     <main>
-        <section>
-            <h2>Contra</h2>
-            <p>Contra is a classic run-and-gun action game developed and published by Konami for the Nintendo Entertainment System (NES), celebrated for its intense gameplay, cooperative multiplayer mode, and iconic spread gun weapon as players take on the role of commandos Bill Rizer and Lance Bean in a mission to defeat the alien forces of Red Falcon and save the world from destruction.</p>
-            <div style="width:640px;height:480px;max-width:100%">
-                <div id="game"></div>
-            </div>
-            <script>
-                EJS_player = "#game";
-                EJS_core = "nes";
-                EJS_gameName = "Contra";
-                EJS_color = "#ff6100";
-                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-                EJS_gameUrl = "/roms/nes/Contra (USA).nes";
-            </script>
-            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-        </section>
+      <section>
+        <h2>Contra</h2>
+        <p>
+          Contra is a classic run-and-gun action game developed and published by
+          Konami for the Nintendo Entertainment System (NES), celebrated for its
+          intense gameplay, cooperative multiplayer mode, and iconic spread gun
+          weapon as players take on the role of commandos Bill Rizer and Lance
+          Bean in a mission to defeat the alien forces of Red Falcon and save
+          the world from destruction.
+        </p>
+        <div style="width: 640px; height: 480px; max-width: 100%">
+          <div id="game"></div>
+        </div>
+        <script>
+          EJS_player = "#game";
+          EJS_core = "nes";
+          EJS_gameName = "Contra";
+          EJS_color = "#ff6100";
+          EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+          EJS_gameUrl = "/roms/nes/Contra (USA).nes";
+        </script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+      </section>
     </main>
     <dyn-footer></dyn-footer>
-    
+
     <script src="./headerfooter.js"></script>
-</body>
+  </body>
 </html>
