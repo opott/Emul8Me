@@ -1,31 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <title>The Legend of Zelda | Emul8Me</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<dyn-header></dyn-header>
-<body>    
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <dyn-header></dyn-header>
+  <body>
     <main>
-        <section>
-            <h2>The Legend of Zelda</h2>
-            <p>The Legend of Zelda is an action-adventure video game developed and published by Nintendo for the Nintendo Entertainment System (NES), renowned for its open-world exploration, challenging dungeons, and innovative gameplay mechanics as players control the hero Link on a quest to rescue Princess Zelda and defeat the evil Ganon by collecting powerful artifacts and exploring the vast land of Hyrule.</p>
-            <div style="width:640px;height:480px;max-width:100%">
-                <div id="game"></div>
-            </div>
-            <script>
-                EJS_player = "#game";
-                EJS_core = "nes";
-                EJS_gameName = "The Legend of Zelda";
-                EJS_color = "#ff6100";
-                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-                EJS_gameUrl = "/roms/nes/Legend of Zelda, The (Europe) (Rev 1).nes";
-            </script>
-            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-        </section>
+      <section>
+        <h2>The Legend of Zelda</h2>
+        <p>
+          The Legend of Zelda is an action-adventure video game developed and
+          published by Nintendo for the Nintendo Entertainment System (NES),
+          renowned for its open-world exploration, challenging dungeons, and
+          innovative gameplay mechanics as players control the hero Link on a
+          quest to rescue Princess Zelda and defeat the evil Ganon by collecting
+          powerful artifacts and exploring the vast land of Hyrule.
+        </p>
+        <div style="width: 640px; height: 480px; max-width: 100%">
+          <div id="game"></div>
+        </div>
+        <script>
+          EJS_player = "#game";
+          EJS_core = "nes";
+          EJS_gameName = "The Legend of Zelda";
+          EJS_color = "#ff6100";
+          EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+          EJS_gameUrl = "/roms/nes/Legend of Zelda, The (Europe) (Rev 1).nes";
+        </script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+      </section>
     </main>
     <dyn-footer></dyn-footer>
 
     <script src="/headerfooter.js"></script>
-</body>
+  </body>
 </html>

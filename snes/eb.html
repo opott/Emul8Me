@@ -1,31 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
     <title>EarthBound | Emul8Me</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-    <dyn-header></dyn-header>    
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <dyn-header></dyn-header>
     <main>
-        <section>
-            <h2>EarthBound</h2>
-            <p>EarthBound is a role-playing video game developed by HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System (SNES), known for its quirky humor, unique setting, and engaging gameplay mechanics as players control a group of kids on a quest to save the world from an alien invasion.</p>
-            <div style="width:640px;height:480px;max-width:100%">
-                <div id="game"></div>
-            </div>
-            <script>
-                EJS_player = "#game";
-                EJS_core = "snes";
-                EJS_gameName = "EarthBound";
-                EJS_color = "#ff6100";
-                EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-                EJS_gameUrl = "/roms/snes/EarthBound (USA).sfc";
-            </script>
-            <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-        </section>
+      <section>
+        <h2>EarthBound</h2>
+        <p>
+          EarthBound is a role-playing video game developed by HAL Laboratory
+          and published by Nintendo for the Super Nintendo Entertainment System
+          (SNES), known for its quirky humor, unique setting, and engaging
+          gameplay mechanics as players control a group of kids on a quest to
+          save the world from an alien invasion.
+        </p>
+        <div style="width: 640px; height: 480px; max-width: 100%">
+          <div id="game"></div>
+        </div>
+        <script>
+          EJS_player = "#game";
+          EJS_core = "snes";
+          EJS_gameName = "EarthBound";
+          EJS_color = "#ff6100";
+          EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+          EJS_gameUrl = "/roms/snes/EarthBound (USA).sfc";
+        </script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+      </section>
     </main>
     <dyn-footer></dyn-footer>
-    
+
     <script src="./headerfooter.js"></script>
-</body>
+  </body>
 </html>
